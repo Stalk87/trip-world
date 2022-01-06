@@ -1,0 +1,33 @@
+.place {
+    display: grid;
+    grid-template-columns: 1fr calc(50% - 16px + 8px); /*первая колонка 1фр, вторая = половина родителя - половина гапа - половина разницы между колонками*/
+    column-gap: 32px;
+    row-gap: 48px;
+    padding-bottom: 80px;
+}
+
+.place:last-of-type {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width:560px) {
+    .place {
+        display: block;
+        padding-bottom: 50px; 
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:321px) {
+    .place {
+        padding-bottom: 73px;
+        column-gap: 28px;
+        row-gap: 48px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .place {
+        column-gap: 40px;
+        row-gap: 48px;
+    }
+}

@@ -1,0 +1,4 @@
+.cover {
+    background: url(../../images/cover-trains.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
