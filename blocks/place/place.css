@@ -21,13 +21,11 @@
     .place {
         padding-bottom: 73px;
         column-gap: 28px;
-        row-gap: 48px;
     }
 }
 
 @media screen and (min-width:1025px) {
     .place {
         column-gap: 40px;
-        row-gap: 48px;
     }
 }

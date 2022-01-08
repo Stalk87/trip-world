@@ -2,20 +2,16 @@
     padding: 0 48px;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
     .lead {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width:768px) and (min-width:321px) {
-    .lead {
-        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
 @media screen and (min-width:1025px) {
     .lead {
-        padding: 0 148px;
+        padding-left: 148px;
+        padding-right: 148px;
     }
 }

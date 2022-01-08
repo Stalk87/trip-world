@@ -8,14 +8,11 @@
 
 .header__lang-link:first-of-type {
     margin-right: 18px;
+    text-decoration: underline;
 }
 
 .header__lang-link:hover {
     opacity: 0.6;
-}
-
-.header__lang-link_active { /*не придется ли для тебя отдельную папку создать?*/
-    text-decoration: underline;
 }
 
 @media screen and (max-width:320px) {

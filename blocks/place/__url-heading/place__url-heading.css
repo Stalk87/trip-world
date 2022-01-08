@@ -4,17 +4,18 @@
     line-height: 20.4px;
     padding-bottom: 12px;
     margin: 0;
+    letter-spacing: 2px;
 }
 
 @media screen and (max-width:768px) {
     .place__url-heading {
-        font-size: 12px;
         line-height: 12px;
     }
 }
 
-@media screen and (max-width:560px) {
-    .place__url-heading {
+@media screen and (max-width:320px) {
+    .place__url-heading {        
         padding-left: 16px;
+        padding-right: 16px;
     }
 }

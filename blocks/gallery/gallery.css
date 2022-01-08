@@ -9,7 +9,8 @@
     .gallery {
         grid-template-columns: 1fr;
         gap: 12px;
-        padding: 0 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 
@@ -17,7 +18,8 @@
     .gallery {
         grid-template-columns: repeat(2, 2fr);
         gap: 16px;
-        padding: 0 24px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 
