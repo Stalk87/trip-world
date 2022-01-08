@@ -1,13 +1,16 @@
 .footer {
     display: flex;
+    max-width: 1300px;
     padding: 92px 48px 24px;
     justify-content: space-between;
+    margin: auto;
 }
 @media screen and (max-width:767px) {
     .footer {
         flex-wrap: wrap;
         width: 186px;
         padding: 64px 0 24px 16px;
+        margin: 0;
     }
 }
 

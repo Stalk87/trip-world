@@ -5,6 +5,7 @@
     margin: auto;
     text-align: center;
     padding-bottom: 195px;
+    z-index: 1;
 }
 
 @media screen and (max-width:560px) {
