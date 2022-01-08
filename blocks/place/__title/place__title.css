@@ -2,6 +2,7 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
+    padding-top: 0;
     font-weight: 900;
 }
 
@@ -9,7 +10,6 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
-        padding-top: 32px;
         padding-bottom: 32px;
     }
 }
