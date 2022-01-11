@@ -4,6 +4,7 @@
     line-height: 100px;
     font-weight: 900;
     width: auto;
+    max-width: 720px;
     margin: auto;
 }
 

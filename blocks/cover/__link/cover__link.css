@@ -1,27 +1,8 @@
 .cover__link {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
+    flex-grow: 1;
+    z-index: 1;
     color: white;
-}
-  
-.cover__link:before {
-    content: "";
-    background: url(../../../images/cover-trains.jpg) center center/cover no-repeat;
-    opacity: .8;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    transition: opacity .4s linear;
-}
-  
-.cover__link:hover::before {
-    opacity: .3;
-}
+  }
